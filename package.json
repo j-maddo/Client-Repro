@@ -1,0 +1,13 @@
+{
+  "name": "page-reloads",
+  "version": "1.0.0",
+  "description": "The test reloads the page until an expected text appears",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "https://cdn.cypress.io/beta/npm/12.0.0/darwin-arm64/release/12.0.0-8ff38cdb01adb1a4d317154d5baafa2eff5bad3d/cypress.tgz"
+  }
+}
