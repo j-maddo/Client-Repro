@@ -4,9 +4,6 @@ context('Cypress', function () {
       // Please sign up (for free) at www.vidyard.com, verify your email address, then update these accordingly.
       // This test also requires at least one video in your Library, so please upload at least one video.
   
-      const email = 'jireh@cypress.io';
-      const password = 'Faithful08!';
-  
       cy.visit('https://secure.vidyard.com/user/sign_in');
       cy.get('#username').type(email);
       cy.get('#next-login').click();
